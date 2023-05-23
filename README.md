@@ -1,4 +1,4 @@
-# sinkhole-prediction
+# Thesis: Sinkhole-Prediction
 
 In this project, we evaluated the predictive capability of five machine learning algorithms and used the algorithm with the best performance to build a predictive model for sinkhole mapping and prediction for west central Florida. The algorithms evaluated were: Logistic regression (LR), multilayer perceptron neural network (MLP), support vector machine (SVM), k-nearest neighbor (KNN), and random forest (RF)). 
 You can see our results here:
