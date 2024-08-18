@@ -1,7 +1,14 @@
-## README: Sinkhole Susceptibility Analysis Using Machine Learning
+## README: Thesis: Sinkhole Susceptibility Analysis Using Machine Learning
 
 ### Overview
-This project involves analyzing sinkhole susceptibility using a variety of machine learning algorithms. The dataset contains multiple geological and environmental features, which are used to predict the occurrence of sinkholes. The analysis includes data preprocessing, feature selection, model building, and evaluation of different machine learning models.
+This project involves analyzing sinkhole susceptibility using a variety of machine learning algorithms. The dataset contains multiple geological and environmental features, which are used to predict the occurrence of sinkholes. The analysis includes data preprocessing, feature selection, model building, and evaluation of different machine learning models. 
+In the article, you can mention the following:
+
+1. **Pre-processing of the Dataset**: The initial pre-processing of the dataset was conducted using ArcGIS, ensuring that the data was accurately prepared for further analysis.
+
+2. **Exporting the RF Model to ArcGIS**: After training the Random Forest (RF) model, it was exported to ArcGIS to generate a detailed sinkhole susceptibility map for the study area, allowing for a seamless integration of the predictive model with advanced geospatial visualization tools.
+
+https://drive.google.com/file/d/1SvmCKVHu_VF9WaQYwLK3qyx9SqVIRrgA/view?usp=sharing
 
 ### Requirements
 Ensure you have the following Python libraries installed:
@@ -132,7 +139,7 @@ print('ROC AUC:', rf_roc_auc)
 #### 9. Save Results and Figures
 Save PCA plots and model performance results for further analysis.
 ```python
-plt.savefig(os.path.join('C:\\Users\\MUILI OLANREWAJU\\Research Thesis\\Data\\Processed data\\figures', 'pca.png'), dpi=300)
+plt.savefig(os.path.join('..data\\figures', 'pca.png'), dpi=300)
 ```
 
 ### Conclusion
@@ -147,15 +154,6 @@ This project is licensed under the MIT License.
 ### Acknowledgments
 Thanks to The Doe Run Company for providing the dataset and support for this project.
 
-
-
-
-# Thesis: Sinkhole-Prediction
-
-In this project, we evaluated the predictive capability of five machine learning algorithms and used the algorithm with the best performance to build a predictive model for sinkhole mapping and prediction for west central Florida. The algorithms evaluated were: Logistic regression (LR), multilayer perceptron neural network (MLP), support vector machine (SVM), k-nearest neighbor (KNN), and random forest (RF)). 
-You can see our results here:
-
-https://drive.google.com/file/d/1SvmCKVHu_VF9WaQYwLK3qyx9SqVIRrgA/view?usp=sharing
 
 ## Data
 
