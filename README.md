@@ -1,4 +1,4 @@
-## README: Thesis: Sinkhole Susceptibility Analysis Using Machine Learning
+## Thesis: Sinkhole Susceptibility Analysis Using Machine Learning
 
 ### Overview
 This project involves analyzing sinkhole susceptibility using a variety of machine learning algorithms. The dataset contains multiple geological and environmental features, which are used to predict the occurrence of sinkholes. The analysis includes data preprocessing, feature selection, model building, and evaluation of different machine learning models. 
@@ -7,8 +7,6 @@ In the article, you can mention the following:
 1. **Pre-processing of the Dataset**: The initial pre-processing of the dataset was conducted using ArcGIS, ensuring that the data was accurately prepared for further analysis.
 
 2. **Exporting the RF Model to ArcGIS**: After training the Random Forest (RF) model, it was exported to ArcGIS to generate a detailed sinkhole susceptibility map for the study area, allowing for a seamless integration of the predictive model with advanced geospatial visualization tools.
-
-https://drive.google.com/file/d/1SvmCKVHu_VF9WaQYwLK3qyx9SqVIRrgA/view?usp=sharing
 
 ### Requirements
 Ensure you have the following Python libraries installed:
